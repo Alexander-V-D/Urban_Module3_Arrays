@@ -27,8 +27,8 @@ fun printArrayArithmeticMean() {
 
 //Функция для задачи 3:
 fun printArrayEvenNumbers(array: Array<Int>) {
-    var countEven = 0
     println("Ответ к задаче 3:")
+    var countEven = 0
     for (i in array) {
         if (i % 2 == 0) {
             println(i)
@@ -40,6 +40,7 @@ fun printArrayEvenNumbers(array: Array<Int>) {
 
 //Функция для задачи 4:
 fun printNArrayOfTwoDegrees(n: Int) {
+    println("Ответ к задаче 4:")
     var arr = intArrayOf()
     for (i in 1..n) {
         arr += 2.0.pow(i.toDouble()).toInt()
